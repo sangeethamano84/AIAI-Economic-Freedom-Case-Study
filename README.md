@@ -34,3 +34,5 @@ legal_system_property_rights |decimal
 sound_money |decimal
 freedom_to_trade_internationally |decimal
 regulation |decimal
+
+![](Data Modeling.png)
