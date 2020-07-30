@@ -34,7 +34,3 @@ legal_system_property_rights |decimal
 sound_money |decimal
 freedom_to_trade_internationally |decimal
 regulation |decimal
-
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
