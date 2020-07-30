@@ -36,4 +36,5 @@ freedom_to_trade_internationally |decimal
 regulation |decimal
 
 
-! 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
