@@ -39,7 +39,7 @@ regulation |decimal
 1. ## Review its features in Excel or any other editor:
 The Excel file has been adjusted because it does not respect the table format
 
-![](https://github.com/sangeethamano84/AIAI-Economic-Freedom-Case-Study/blob/master/EFW_csv.png)
+![](https://github.com/sangeethamano84/Economic-Freedom-of-the-World-CaseStudy/blob/master/AIAI%20Economic%20Freedom%20Case%20Study/EFW_csv.png)
  
 
 
@@ -51,13 +51,13 @@ cleaned file is uploaded in Pyramid Data Modeling.
 
 Data Model refers to the logical inter-relationships and data flow between different data elements. It documents the way data is stored and retrieved.
 
-![](https://github.com/sangeethamano84/AIAI-Economic-Freedom-Case-Study/blob/master/DataModel.png)
+![](https://github.com/sangeethamano84/Economic-Freedom-of-the-World-CaseStudy/blob/master/AIAI%20Economic%20Freedom%20Case%20Study/DataModel.png)
 The delimiter has to checked to upload CSV file to extract the data correctly. The data is stored in memory by selecting In-Memory DB option and Build button is pressed to upload the data.
 
 3. ## Integrate this file in your “sandbox”:
 
  The Data is prepared for ***ETL***.
- ![](https://github.com/sangeethamano84/AIAI-Economic-Freedom-Case-Study/blob/master/ETL.png)
+ ![](https://github.com/sangeethamano84/Economic-Freedom-of-the-World-CaseStudy/blob/master/AIAI%20Economic%20Freedom%20Case%20Study/ETL.png)
  The data is stored in the Database and the file is integrated and experimented without affecting the source data.
  * The uploaded data is connected to the source and set-on-demand or scheduled extract is chosen to an appropriate timing.
  * The field formats are adjusted and granularity is reduced and the process of calculations are performed on necessary fields.
@@ -74,7 +74,7 @@ The delimiter has to checked to upload CSV file to extract the data correctly. T
  ### ***Data Profiling***
  Data Profiling is the process of reviewing source data, understanding strcture, content, interrelationship and identfying potential for data.
 
-  ![](https://github.com/sangeethamano84/AIAI-Economic-Freedom-Case-Study/blob/master/columnconfig.png)
+  ![](https://github.com/sangeethamano84/Economic-Freedom-of-the-World-CaseStudy/blob/master/AIAI%20Economic%20Freedom%20Case%20Study/columnconfig.png)
   
    ***Structure discovery***: 
  validating the data is consistant and formatted corretly and performing mathematical check(eg. sum, min, max).
@@ -88,36 +88,36 @@ The delimiter has to checked to upload CSV file to extract the data correctly. T
  4. ## Develop a first analysis:
     Discovered data with data visualization by dimensions and measures.
     * ***Correlated Legal System and Sound Money***:
-![](https://github.com/sangeethamano84/AIAI-Economic-Freedom-Case-Study/blob/master/Correlated%20legal%20system%20and%20sound%20money.png)
+![](https://github.com/sangeethamano84/Economic-Freedom-of-the-World-CaseStudy/blob/master/AIAI%20Economic%20Freedom%20Case%20Study/Correlated%20legal%20system%20and%20sound%20money.png)
 This visualization discovered the Correlation between attributes the Legal System & Property Rights and Sound money. 
 In the observation, As the Legal System & Property Rights decreases the Sound money also decreases and vice versa. It shows these two attributes are highly correlated.
     * ***Legal System & Property by Year***:
- ![](https://github.com/sangeethamano84/AIAI-Economic-Freedom-Case-Study/blob/master/Legal%20%26%20property.png)
+ ![](https://github.com/sangeethamano84/Economic-Freedom-of-the-World-CaseStudy/blob/master/AIAI%20Economic%20Freedom%20Case%20Study/Legal%20%26%20property.png)
  This visualization shows Measure value of Legal System & Property by Year as Dimensions. The Iso-code is applied as a filter to extract the values according to the selected filter.
  In the observation, the selected ISO -CODE, is GNB which represent the country Guinea - Bissau. In year 2015 the Legal System & Propery is higher with value 3.86.
     * ***Size of Government and Regulation by Summary-index***:
-![](https://github.com/sangeethamano84/AIAI-Economic-Freedom-Case-Study/blob/master/Government%20and%20regulation.png)
+![](https://github.com/sangeethamano84/Economic-Freedom-of-the-World-CaseStudy/blob/master/AIAI%20Economic%20Freedom%20Case%20Study/Government%20and%20regulation.png)
 This visualization shows Measure value of Summary-index with X-axis as Size of Government and Y-axis as Regulation. 
 In the observation, The Summary-index values are measured as size. The bigger the size, bigger the value and vice versa. 
 The biggest measured size of Summary-index is: 197.31, which belongs to the country Hong Kong with Regulation of 200.18 and Size of Government is 202.28.
 The smallest measured size of Summary-index is: 13.90, which belongs to the country Laos with Regulation of 12.62 and Size of Government is 17.11.
    * ***Summary Index of the Country by Year***:
-![](https://github.com/sangeethamano84/AIAI-Economic-Freedom-Case-Study/blob/master/country%20summary%20index.png)
+![](https://github.com/sangeethamano84/Economic-Freedom-of-the-World-CaseStudy/blob/master/AIAI%20Economic%20Freedom%20Case%20Study/country%20summary%20index.png)
 This visualization shows Measure value of Summary index and Dimension as Countries by Year. The Year is applied as a filter to extract the values according to the selected filter.
 In the observation, the selected Year, is 2015 the shown trend visualization of Summary index values of countries. 
 The Country with higher Summary Index value is Hong Kong with 8.97 in year 2015.
    * ***Sum of Summary index of all years by Country***:
-![](https://github.com/sangeethamano84/AIAI-Economic-Freedom-Case-Study/blob/master/sum%20summary%20by%20year.png)
+![](https://github.com/sangeethamano84/Economic-Freedom-of-the-World-CaseStudy/blob/master/AIAI%20Economic%20Freedom%20Case%20Study/sum%20summary%20by%20year.png)
 This visualization show the Measure value of sum of summary index, the formula of summation of summary index values of all years is done and applied in X-axis.
 The Dimension value of Regulation in Y- axis and visualized by size of Freedom of trade internationally.
 In the observation, The visualization shows that the country HongKong has highest value of Freedom of trade internationally 208.34 measured by summary index and regulation.
  5. ## Explore the various functionalities of a BI solution:
    * ***Linear Regression of Freedom of Trade Internationally***:
-![](https://github.com/sangeethamano84/AIAI-Economic-Freedom-Case-Study/blob/master/Freedom%20of%20trade%20Linear%20Regression.png)
+![](https://github.com/sangeethamano84/Economic-Freedom-of-the-World-CaseStudy/blob/master/AIAI%20Economic%20Freedom%20Case%20Study/Freedom%20of%20trade%20Linear%20Regression.png)
 This visualization shows the Linear Regression of Freedom of Trade Internationally over Legal Systems & Property, The year is applied as a filter.
 In the observation, the regression line fits to the value. Hence, the linear regression model can be applied to the Economic Freedom dataset.
 
-![](https://github.com/sangeethamano84/AIAI-Economic-Freedom-Case-Study/blob/master/Outliers%20Multi%20Varient.png)
+![](https://github.com/sangeethamano84/Economic-Freedom-of-the-World-CaseStudy/blob/master/AIAI%20Economic%20Freedom%20Case%20Study/Outliers%20Multi%20Varient.png)
 The Linear Regression model as few outliers to filter the model for the perfect fit.
 The visualization show the fit IN and OUT values of the Linear Regression model
 
