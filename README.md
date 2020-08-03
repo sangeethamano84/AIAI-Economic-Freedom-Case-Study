@@ -101,7 +101,7 @@ This visualization shows Measure value of Summary-index with X-axis as Size of G
 In the observation, The Summary-index values are measured as size. The bigger the size, bigger the value and vice versa. 
 The biggest measured size of Summary-index is: 197.31, which belongs to the country Hong Kong with Regulation of 200.18 and Size of Government is 202.28.
 The smallest measured size of Summary-index is: 13.90, which belongs to the country Laos with Regulation of 12.62 and Size of Government is 17.11.
-   * ***Summary Index of the Country by Year:
+   * ***Summary Index of the Country by Year***:
 ![](https://github.com/sangeethamano84/AIAI-Economic-Freedom-Case-Study/blob/master/country%20summary%20index.png)
 This visualization shows Measure value of Summary index and Dimension as Countries by Year. The Year is applied as a filter to extract the values according to the selected filter.
 In the observation, the selected Year, is 2015 the shown trend visualization of Summary index values of countries. 
@@ -111,6 +111,7 @@ The Country with higher Summary Index value is Hong Kong with 8.97 in year 2015.
 This visualization show the Measure value of sum of summary index, the formula of summation of summary index values of all years is done and applied in X-axis.
 The Dimension value of Regulation in Y- axis and visualized by size of Freedom of trade internationally.
 In the observation, The visualization shows that the country HongKong has highest value of Freedom of trade internationally 208.34 measured by summary index and regulation.
+ 5. ## Explore the various functionalities of a BI solution:
    * ***Linear Regression of Freedom of Trade Internationally***:
 ![](https://github.com/sangeethamano84/AIAI-Economic-Freedom-Case-Study/blob/master/Freedom%20of%20trade%20Linear%20Regression.png)
 This visualization shows the Linear Regression of Freedom of Trade Internationally over Legal Systems & Property, The year is applied as a filter.
