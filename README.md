@@ -116,7 +116,7 @@ In the observation, The visualization shows that the country HongKong has highes
 ![](https://github.com/sangeethamano84/Economic-Freedom-of-the-World-CaseStudy/blob/master/AIAI%20Economic%20Freedom%20Case%20Study/Freedom%20of%20trade%20Linear%20Regression.png)
 This visualization shows the Linear Regression of Freedom of Trade Internationally over Legal Systems & Property, The year is applied as a filter.
 In the observation, the regression line fits to the value. Hence, the linear regression model can be applied to the Economic Freedom dataset.
-
+   * ***Outliers in the Model***:
 ![](https://github.com/sangeethamano84/Economic-Freedom-of-the-World-CaseStudy/blob/master/AIAI%20Economic%20Freedom%20Case%20Study/Outliers%20Multi%20Varient.png)
 The Linear Regression model as few outliers to filter the model for the perfect fit.
 The visualization show the fit IN and OUT values of the Linear Regression model
